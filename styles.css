@@ -1,0 +1,56 @@
+html {
+    background: rgb(225, 225, 225);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Title */
+
+.title-main, .title-sub {
+    text-align: center;
+    margin: 12px;
+}
+
+.title-main {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.title-sub {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Game Board */
+
+/* Configuration */
+.config {
+    margin: 32px auto;
+    padding: 8px;
+    align-items: center;
+    gap: 16px;
+    width: fit-content;
+    border: 1px;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+.config-options {
+    gap: 32px;
+}
+
+.config-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* UTIL */
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
