@@ -16,12 +16,15 @@
     <div class="game-area row">
         <!-- Lots of divs? Try Grid?-->
     </div>
+    <div class="reset row">
+        <button class="reset-button">Reset Etch-a-Sketch</button>
+    </div>
     <div class="config col">
         <div class="config-title">Configure the Etch-a-Sktech</div>
         <div class="config-options row">
             <div class="config-container">
-                <label for="row-config">Rows: </label>
-                <select name="row-config" id="row-config">
+                <label for="area-config">Rows/Columns: </label>
+                <select name="area-config" id="area-config">
                     <option value="24" selected>24</option>
                     <option value="48">48</option>
                     <option value="72">72</option>
@@ -30,13 +33,13 @@
                 </select> 
             </div>
             <div class="config-container">
-                <label for="col-config">Columns: </label>
-                <select name="col-config" id="col-config">
-                    <option value="24" selected>24</option>
-                    <option value="48">48</option>
-                    <option value="72">72</option>
-                    <option value="96">96</option>
-                    <option value="120">120</option>
+                <label for="sketch-color">Sketch Color: </label>
+                <select name="sketch-color" id="sketch-color">
+                    <option value="white" selected>White</option>
+                    <option value="black">Black</option>
+                    <option value="blue">Blue</option>
+                    <option value="red">Red</option>
+                    <option value="yellow">Yellow</option>
                 </select>
             </div>
             <div class="config-container">
@@ -44,16 +47,6 @@
                 <select name="etch-color" id="etch-color">
                     <option value="black" selected>Black</option>
                     <option value="white">White</option>
-                    <option value="blue">Blue</option>
-                    <option value="red">Red</option>
-                    <option value="yellow">Yellow</option>
-                </select>
-            </div>
-            <div class="config-container">
-                <label for="sketch-color">Sketch Color: </label>
-                <select name="sketch-color" id="sketch-color">
-                    <option value="white" selected>White</option>
-                    <option value="black">Black</option>
                     <option value="blue">Blue</option>
                     <option value="red">Red</option>
                     <option value="yellow">Yellow</option>
