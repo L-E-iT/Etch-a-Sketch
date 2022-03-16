@@ -22,6 +22,20 @@ html {
 
 /* Game Board */
 
+.game-area {
+    flex-wrap: wrap;
+    width: 480px;
+    height: 480px;
+    align-content: stretch;
+}
+
+.cell {
+    background-color: aqua;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
 /* Configuration */
 .config {
     margin: 32px auto;
